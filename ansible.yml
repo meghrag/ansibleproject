@@ -6,5 +6,7 @@
   tasks: 
     - name: war filr
       copy:
-        src: 
-        dest: 
+        src: target/webfile-latest.war
+        dest: /var/lib/tomcat9/webapps
+        owner: tomcat9
+        group: tomcat9
