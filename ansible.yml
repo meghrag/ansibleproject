@@ -1,0 +1,10 @@
+---
+- name: ansible project
+  hosts: prod
+  remote_user: ubuntu
+  become: yes
+  tasks: 
+    - name: war filr
+      copy:
+        src: 
+        dest: 
