@@ -8,5 +8,6 @@
       copy:
         src: target/webfile-latest.war
         dest: /var/lib/tomcat9/webapps
+        remote_src: yes
         owner: tomcat9
         group: tomcat9
